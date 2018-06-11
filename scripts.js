@@ -1,3 +1,0 @@
-function addHello() {
-	confirm("Hello");
-}
