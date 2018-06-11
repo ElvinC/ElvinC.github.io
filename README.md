@@ -1,2 +1,2 @@
 # ElvinC.github.io
-Just learning some things
+Github pages hosting
