@@ -16,8 +16,9 @@ body {
 	font-weight: 500;
 }
 .text {
-	color: #777;
+	color: #666;
 	font-size: 16px;
+	margin-top: 10px;
 }
 
 .tableContainer {
@@ -31,19 +32,33 @@ body {
 .cellContainer {
 	display: table-cell;
 	vertical-align: middle;
-	pointer-events: none;
+	/*pointer-events: none;*/
+}
+
+.cellContainer a {
+	font-size: 16px;
+	pointer-events: all;
+	text-decoration: none;
+	font-weight: bold;
+	color: #558;
+	transition: all 0.2s ease;
+}
+
+.cellContainer a:hover {
+
+	color: #66bb;
 }
 
 .innerContainer {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 400px;
+	max-width: 500px;
 	background-color: rgba(255, 255, 255, 0.7);
 	box-shadow: 0 0 60px 30px rgba(255, 255, 255, 0.7);
 	border-radius: 100px;
 	padding: 10px;
 	margin-bottom: 30px;
-	pointer-events: none;
+	/*pointer-events: none;*/
 }
 
 #particles-js {
